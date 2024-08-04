@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>color slider</title>  
+        <link rel="stylesheet" type="text/css" href="slider.css">
+        
+    </head>
+    <body>
+        <div class="main">
+            <div class="slider">
+                <label for="red">R</label>
+                <input type="range" min="0" max="255" value="0" id="red">
+            </div>
+
+            <div class="slider">
+                <label for="green">G</label>
+                <input type="range" min="0" max="255" value="0" id="green">
+            </div>
+
+            <div class="slider">
+                <label for="blue">B</label>
+                <input type="range" min="0" max="255" value="0" id="blue">
+            </div>
+
+            <div class="result">
+                <input type="text" value="rgb(0, 0, 0)" readonly>
+                <button id="copy"> color code </button>
+
+            </div>
+        </div>
+        <script src="slider.js"></script>
+    </body>
+</html>
